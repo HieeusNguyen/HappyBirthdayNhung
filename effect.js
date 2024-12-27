@@ -188,8 +188,8 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
-			if(i==57){
-				$("p:nth-child(56)").fadeOut('slow').promise().done(function () {
+			if(i==40){
+				$("p:nth-child(39)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 				});
 				
